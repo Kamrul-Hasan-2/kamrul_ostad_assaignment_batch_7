@@ -30,7 +30,7 @@ class Car{
   }
 
   int getAge(){
-    int currentYear = 2024;
+    int  currentYear = DateTime.now().year;
     return currentYear - year;
   }
 
